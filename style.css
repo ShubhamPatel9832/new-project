@@ -1,0 +1,251 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main-g {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+.main-p {
+
+    width: 80%;
+    height: 72vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.main-c {
+
+    width: 30%;
+    height: 100%;
+
+    background-color: #E28525;
+    display: flex;
+
+
+
+}
+
+
+
+.contant {
+
+
+    margin-left: 13%;
+    margin-right: 15%;
+
+}
+
+
+
+
+.img {
+
+
+    margin-top: 5vh;
+
+}
+
+
+.h1 {
+
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.pera {
+
+    text-align: start;
+    margin-top: 10%;
+    color: wheat;
+    font-size: 20px;
+}
+
+
+.learn {
+
+    width: 70%;
+    height: 30px;
+    margin-top: 15vh;
+    color: #E28525;
+    border-radius: 30px;
+    border: 0.5px solid yellow;
+    font-size: 15px;
+    margin-bottom: 10%;
+}
+
+.learn:hover {
+
+    cursor: pointer;
+    box-shadow: 3px 3px 10px #888888;
+}
+
+
+.color {
+
+    background-color: #016972;
+
+}
+
+.color-pera {
+
+    color: #7db8c1;
+}
+
+
+.color3 {
+
+    background-color: #00403f;
+}
+
+
+.color3-pera {
+
+    color: #7ba3a6;
+}
+
+
+
+@media screen and (min-width:1100px) {
+        
+
+        .main-g {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+
+    
+
+}
+
+
+@media screen and (max-width:1100px) {
+        
+
+    .main-p{
+
+        width: 100%;
+    }
+
+    .main-c{
+
+        width: 95%;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:900px) {
+
+
+
+    
+
+    .main-p{
+
+        height: auto;
+        width: 100%;
+        display: flex;  
+        flex-wrap: wrap;
+        flex-flow: column;
+    }
+
+ .main-c{
+
+    width: 50%;
+    flex-wrap: wrap;
+    flex-flow: column;
+    
+ }
+    
+    
+
+
+    
+}
+
+
+
+@media screen and (max-width:575px) {
+
+
+
+    
+
+    .main-p{
+
+        height: auto;
+        width: 100%;
+        display: flex;  
+        flex-wrap: wrap;
+        flex-flow: column;
+    }
+
+    .main-c{
+
+        width: 90%;
+        flex-wrap: wrap;
+        flex-flow: column;
+        
+     }
+
+    
+    
+
+
+    
+}
+
+
+@media screen and (max-width:400px) {
+
+
+
+    
+
+    .main-p{
+
+        height: auto;
+        width: 100%;
+        display: flex;  
+        flex-wrap: wrap;
+        flex-flow: column;
+    }
+
+    .main-c{
+
+        width: 100%;
+        flex-wrap: wrap;
+        flex-flow: column;
+        
+     }
+
+    
+    
+
+
+    
+}
